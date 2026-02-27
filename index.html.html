@@ -1,0 +1,301 @@
+<body>
+  <div class="container">
+    <nav>
+      <h3>Okies</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+
+      <div class="about-content">
+        <p>
+          I'm a creative mind passionate about design, digital experiences,
+          and building modern websites. I started learning web development
+          to turn ideas into real, interactive products.
+        </p>
+
+        <p>
+          My goal is to grow into a skilled designer and developer,
+          combining creativity with technical skills to build meaningful
+          digital experiences.
+        </p>
+      </div>
+     </section>
+    <section id="home" class="hero">
+      <h1>Hi, I'm Okies</h1>
+      <p>
+        A creative designer and beginner web developer building clean,
+        modern websites and exploring the world of digital design.
+      </p>
+      <a href="#" class="btn">View My Work</a>
+    </section>
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <section id="blog" class="blog">
+        <h2>Latest Articles</h2>
+
+        <div class="blog-card">
+          <h3>Why I started Learning Web Design</h3>
+          <p>
+            My journey into design and development , and how creativity
+            pushed nme into building digital experiences.
+          </p>
+          <a href="#" class="btn">Read More</a>
+       </div>
+
+       <div class="blog-card">
+        <h3>What Makes Good Websites Design?</h3>
+        <p>
+          Exploring layout, spacing, colors, and how simple design
+          decisions change user experience.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        </div>
+      </section>
+
+      <div class="project-card">
+        <h3>Personal Portfolio Websites</h3>
+        <p>
+          My first live website built using HTML and CSS.
+          Designed to showcase my journey into web development and design.
+        </p>
+        <a href="#" class="btn">View Projects</a>
+        <footer>
+          <p>&copy; 2026 Okies. Built with HTML & CSS.</p>
+          <p>Design. Creativity. Growth.</p>
+        </footer>
+      </div>
+
+    </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beginner web developer learning HTML, CSS and building real projects.">
+    <tittle>Okies | Web Developer Portfolio</tittle>
+    <style>
+      .blog {
+        margin-top: 60px;
+      }
+
+      .blog h2{
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .blog-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      .blog-card h3 {
+        margin-top: 0;
+      }
+
+      .blog-card p {
+        color: #555;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+      footer {
+        margin-top: 60px;
+        padding-top: 30px;
+        border-top: 1px solid #add;
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+      }
+      :root {
+        --primary: #1e1e2f;
+        --accent: #6c63ff;
+        --light-bg: #f4f6f9;
+        --text-dark: #222;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: var(--light-bg);
+        margin: 0;
+        padding: 0;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: var(--accent);
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .btn:hover {
+        opacity: 0.85;
+      }
+      .about {
+        margin-top: 60px;
+      }
+
+      .about h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .abouy-content {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.7;
+        color: #555;
+      }
+      @media (max-width: 768px) {
+
+        nav {
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .hero h1 {
+          font-size: 28px;
+        }
+
+        .hero p {
+          font-size: 16px;
+        }
+
+        .container {
+          width: 95%;
+          padding: 20px;
+        }
+      }
+      .projects {
+        margin-top: 60px;
+      }
+
+      .projects h2 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .project-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      .project-card h3 {
+        margin-top: 0;
+      }
+
+      .project-card p {
+        color: #555;
+      }
+      .hero {
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        font-size: 20px;
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+        color: #555;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: darkblue;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .btn:hover {
+        background-color: navy;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: darkblue;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #e9ecef;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 80%;
+        margin: 40px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      h1 {
+        text-align: center;
+        color: darkblue;
+      }
+      h2 {
+        margin-top: 30px;
+        color: #333;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      ul, ol {
+        padding-left: 20px;
+      }
+      a {
+        color: darkred;
+        text-decoration: none;
+      }
+      a:hover {
+        color: orange;
+      }  
+    </style>
+</head>
+<body>
+    
+   
